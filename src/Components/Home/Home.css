@@ -1,0 +1,748 @@
+* {
+
+    font-family: "Jost", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.mainDiv {
+    /* background-color: black; */
+    /* border: 1px solid red; */
+    /* margin: 0 250px; */
+    color: #fff;
+    background-color: rgb(34, 30, 30);
+}
+
+nav {
+    /* background-color: red; */
+    /* border: 1px solid red; */
+    margin: 0 250px;
+}
+
+nav ul {
+    list-style-type: none;
+    /* background-color: blue; */
+    /* border: 1px solid blue; */
+    display: flex;
+    justify-content: start;
+}
+
+nav ul li {
+    margin-right: 40px;
+    /* border: 1px solid red; */
+    /* margin-top: 20px; */
+    /* padding: 20px; */
+}
+
+nav ul li a {
+    text-decoration: none;
+    /* background-color: yellow; */
+    color: #fff;
+    /* border: 1px solid yellow; */
+}
+
+.welcomeDiv h1 {
+    font-weight: 400;
+}
+
+.welcomeDiv p {
+    font-weight: 400;
+    letter-spacing: 0.2px;
+    font-size: smaller;
+}
+
+.welcomeDiv {
+    /* background-color: red; */
+    /* border: 1px solid red; */
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ---------------------------------------------------------------about------------------------------------------------------------- */
+.aboutDiv {
+    /* height: 100vh; */
+}
+
+.aboutPoet {
+    display: flex;
+    /* border: 1px solid red; */
+    margin: 80px 250px;
+    justify-content: space-between;
+}
+
+.section1 {
+    /* border: 1px solid blue; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 47.5%;
+}
+
+.section2 img {
+    /* border: 1px solid magenta; */
+    width: 80%;
+}
+
+.section2 {
+    /* border: 1px solid green; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 45%;
+}
+
+.content1 p,
+.content2 p {
+    font-size: 15px;
+}
+
+.content1 h2,
+.content2 h2 {
+    font-weight: 500;
+    margin-bottom: 6px;
+}
+
+.knowmoreDiv {
+    /* text-align: center; */
+    display: flex;
+    justify-content: center;
+}
+
+.knowmoreDiv a {
+    text-decoration: none;
+    /* border: 1px solid red; */
+    border-radius: 2px;
+    padding: 5px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.knowmoreDiv a img {
+    width: 18px;
+}
+
+.knowmoreDiv a:nth-child(1) {
+    background-color: rgb(221, 221, 221);
+    color: black;
+}
+
+.knowmoreDiv a:nth-child(2) {
+    background-color: rgb(255, 32, 32);
+    color: #fff;
+}
+
+.knowmoreDiv a:nth-child(3) {
+    color: #fff;
+    background-color: rgb(250, 128, 29);
+}
+
+.quoteDiv {
+    text-align: center;
+    margin: 80px 0 40px;
+    background-color: rgb(34, 30, 30);
+    color: #fff;
+    padding: 45px 0;
+}
+
+.quoteDiv p {
+    font-size: 15px;
+}
+
+/* ------------------------------------------------------------------Achievements------------------------------------------------------- */
+#awardsHeading {
+    font-weight: 600;
+}
+
+.awardsTitleDesign
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.awardsTitleDesign div:nth-child(1), .awardsTitleDesign div:nth-child(4)
+{
+    width: 45%;
+}
+
+#star
+{
+    width: 35px;
+}
+
+.awards {
+    display: flex;
+    margin: 60px 250px 80px;
+    justify-content: space-between;
+    /* border: 1px solid red; */
+}
+
+.awards div {
+    border: 1px solid rgb(206, 204, 204);
+    width: 23.5%;
+    /* padding: 10px; */
+}
+
+.awards div h3 {
+    font-weight: 600;
+    margin: 0 10px;
+}
+
+.year {
+    margin: 0 10px;
+    color: #afadad;
+}
+
+.awards div p {
+    margin: 0 10px;
+}
+
+.writingsOfNazrul {
+    display: flex;
+    /* border: 1px solid red; */
+    margin: 0 250px 40px 250px;
+    justify-content: space-between;
+}
+
+.poetry,
+.poemsAndSongs {
+    /* border: 1px solid blue; */
+    width: 49%;
+}
+
+.poetry ul,
+.poemsAndSongs ul {
+    /* background-color: blue; */
+    margin: 40px;
+}
+
+.poetryHeading, .poemsAndSongsHeading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.poetryHeading h2, .poemsAndSongsHeading h2
+{
+    font-weight: 600;
+}
+.poetryHeading  div:nth-child(1), .poetryHeading  div:nth-child(3)
+{
+    width: 38%;
+}
+.poemsAndSongsHeading div:nth-child(1), .poemsAndSongsHeading div:nth-child(3) 
+{
+    width: 28%;
+}
+.poetryHeading div hr, .poemsAndSongsHeading div hr
+{
+    border-top: 1px solid rgb(209, 208, 208);
+}
+
+.footerDiv {
+    color: #fff;
+    background-color: rgb(34, 30, 30);
+    /* border: 1px solid red; */
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 250px;
+    font-size: 18px;
+    /* border: 1px solid yellow; */
+}
+
+h5 {
+    font-weight: bold;
+    margin-bottom: 6px;
+}
+
+footer div p {
+    font-size: 15px;
+}
+
+footer div p a {
+    text-decoration: none;
+    color: rgb(58, 131, 155);
+}
+
+footer div:nth-child(1) {
+    width: 40%;
+    padding: 15px;
+    /* background-color: red; */
+}
+
+footer div:nth-child(2) {
+    width: 20%;
+    /* background-color: blue; */
+    border-left: 1px solid gray;
+    padding: 15px;
+}
+
+footer div:nth-child(3) {
+    width: 40%;
+    /* background-color: aqua; */
+    border-left: 1px solid gray;
+    /* padding: 300px; */
+    /* box-sizing: border-box; */
+    padding: 15px;
+    text-align: justify;
+}
+
+span {
+    color: gray;
+}
+
+/* ------------------------------------------------------------------Media query------------------------------------------------------- */
+@media all and (max-width: 576px) {
+
+    /* -------------------------------------page1--------------------------------------------- */
+    nav {
+        margin: 0;
+    }
+
+    nav ul {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    nav ul li {
+        margin-right: 0px;
+    }
+
+    /* -------------------------------------page2--------------------------------------------- */
+    .aboutDiv {
+        /* height: 100vh; */
+    }
+
+    .aboutPoet {
+        display: flex;
+        flex-direction: column-reverse;
+        margin: 80px 40px;
+        /* margin: 80px 300px; */
+        justify-content: none;
+        align-items: center;
+    }
+
+    .section1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: none;
+        /* width: 47.5%; */
+        width: auto;
+        margin-top: 40px;
+
+    }
+
+    .section2 img {
+        /* border: 1px solid magenta; */
+        width: 100%;
+    }
+
+    .section2 {
+        display: flex;
+        align-items: center;
+        /* width: 45%; */
+        width: auto;
+
+    }
+
+    /* -------------------------------------page3--------------------------------------------- */
+
+    .awards {
+        display: flex;
+        flex-direction: column;
+        margin: 40px 40px 80px;
+        justify-content: none;
+        /* border: 1px solid red; */
+    }
+
+    .awards div {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .awards div h3,
+    .awards div p {
+        margin: 0 10px;
+    }
+
+
+    .writingsOfNazrul {
+        display: flex;
+        flex-direction: column;
+        /* border: 1px solid red; */
+        /* margin: 0 250px 40px 250px; */
+        margin: 0 40px 40px 40px;
+        justify-content: none;
+    }
+
+    .poetry,
+    .poemsAndSongs {
+        width: 100%;
+    }
+
+    .poetry ul,
+    .poemsAndSongs ul {
+        margin: 40px 20px;
+    }
+
+
+    footer {
+        display: block;
+        /* margin: 0 250px; */
+        margin: 0;
+    }
+
+    footer div:nth-child(1) {
+        width: auto;
+        padding: 15px;
+        /* background-color: red; */
+    }
+
+    footer div:nth-child(2) {
+        width: auto;
+        /* background-color: blue; */
+        border-left: none;
+        padding: 15px;
+    }
+
+    footer div:nth-child(3) {
+        width: auto;
+        /* background-color: aqua; */
+        border-left: none;
+        /* padding: 300px; */
+        /* box-sizing: border-box; */
+        padding: 15px;
+        text-align: justify;
+    }
+
+
+}
+
+@media all and (min-width: 577px) and (max-width: 768px) {
+
+    /* -------------------------------------page1--------------------------------------------- */
+    nav {
+        margin: 0 80px;
+    }
+
+    /* -------------------------------------page2--------------------------------------------- */
+    .aboutPoet {
+        display: flex;
+        flex-direction: column-reverse;
+        margin: 80px;
+        /* margin: 80px 300px; */
+        justify-content: none;
+        align-items: center;
+    }
+
+    .section1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: none;
+        /* width: 47.5%; */
+        width: auto;
+        margin-top: 40px;
+    }
+
+    .section2 img {
+        width: 100%;
+    }
+
+    .section2 {
+        display: flex;
+        align-items: center;
+        /* width: 45%; */
+        width: auto;
+
+    }
+
+    /* -------------------------------------page3--------------------------------------------- */
+
+
+    .awards {
+        display: flex;
+        flex-direction: column;
+        margin: 40px 80px 80px;
+        justify-content: none;
+        /* border: 1px solid red; */
+    }
+
+    .awards div {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .awards div h3,
+    .awards div p {
+        margin: 0 10px;
+    }
+
+    .writingsOfNazrul {
+        display: flex;
+        flex-direction: column;
+        border: 1px solid red;
+        margin: 0 80px 40px 80px;
+        justify-content: none;
+    }
+
+    .poetry,
+    .poemsAndSongs {
+        width: 100%;
+    }
+
+    .poetry ul,
+    .poemsAndSongs ul {
+        margin: 40px 40px;
+    }
+
+
+    footer {
+        display: block;
+        /* margin: 0 250px; */
+        margin: 0;
+    }
+
+    footer div:nth-child(1) {
+        width: auto;
+        padding: 15px;
+        /* background-color: red; */
+    }
+
+    footer div:nth-child(2) {
+        width: auto;
+        /* background-color: blue; */
+        border-left: none;
+        padding: 15px;
+    }
+
+    footer div:nth-child(3) {
+        width: auto;
+        /* background-color: aqua; */
+        border-left: none;
+        /* padding: 300px; */
+        /* box-sizing: border-box; */
+        padding: 15px;
+        text-align: justify;
+    }
+}
+
+@media all and (min-width: 768px) and (max-width: 992px) {
+    /* -------------------------------------page1--------------------------------------------- */
+    nav {
+        margin: 0 120px;
+    }
+
+    /* -------------------------------------page2--------------------------------------------- */
+    .aboutPoet {
+        display: flex;
+        flex-direction: column-reverse;
+        margin: 80px 120px;
+        /* margin: 80px 300px; */
+        justify-content: none;
+        align-items: center;
+    }
+
+    .section1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: none;
+        /* width: 47.5%; */
+        width: auto;
+        margin-top: 40px;
+    }
+
+    .section2 img {
+        width: 100%;
+    }
+
+    .section2 {
+        display: flex;
+        align-items: center;
+        /* width: 45%; */
+        width: auto;
+
+    }
+
+    /* -------------------------------------page3--------------------------------------------- */
+
+    .awards {
+        display: flex;
+        flex-direction: row;
+        margin: 40px 120px 80px;
+        justify-content: none;
+        flex-wrap: wrap;
+        /* border: 1px solid red; */
+    }
+
+    .awards div {
+        width: 47%;
+        margin-top: 20px;
+    }
+
+    .awards div h3,
+    .awards div p {
+        margin: 0 10px;
+    }
+
+    .writingsOfNazrul {
+        display: flex;
+        flex-direction: column;
+        margin: 0 120px 40px 120px;
+        justify-content: none;
+    }
+
+    .poetry,
+    .poemsAndSongs {
+        width: 100%;
+    }
+
+    .poetry ul,
+    .poemsAndSongs ul {
+        margin: 40px 60px;
+    }
+
+    footer {
+        display: block;
+        /* margin: 0 250px; */
+        margin: 0;
+    }
+
+    footer div:nth-child(1) {
+        width: auto;
+        padding: 15px;
+        /* background-color: red; */
+    }
+
+    footer div:nth-child(2) {
+        width: auto;
+        /* background-color: blue; */
+        border-left: none;
+        padding: 15px;
+    }
+
+    footer div:nth-child(3) {
+        width: auto;
+        /* background-color: aqua; */
+        border-left: none;
+        /* padding: 300px; */
+        /* box-sizing: border-box; */
+        padding: 15px;
+        text-align: justify;
+    }
+}
+
+@media all and (min-width: 992px) and (max-width: 1200px) {
+
+    /* -------------------------------------page1--------------------------------------------- */
+    nav {
+        margin: 0 160px;
+    }
+
+    /* -------------------------------------page2--------------------------------------------- */
+    .aboutPoet {
+        display: flex;
+        flex-direction: column-reverse;
+        margin: 80px 160px;
+        /* margin: 80px 300px; */
+        justify-content: none;
+        align-items: center;
+    }
+
+    .section1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: none;
+        /* width: 47.5%; */
+        width: auto;
+        margin-top: 40px;
+    }
+
+    .section2 img {
+        width: 100%;
+    }
+
+    .section2 {
+        display: flex;
+        align-items: center;
+        /* width: 45%; */
+        width: auto;
+
+    }
+
+    /* -------------------------------------page3--------------------------------------------- */
+    .awards {
+        display: flex;
+        flex-direction: row;
+        margin: 40px 160px 80px;
+        justify-content: none;
+        flex-wrap: wrap;
+        /* border: 1px solid red; */
+    }
+
+    .awards div {
+        width: 47%;
+        margin-top: 20px;
+    }
+
+    .awards div h3,
+    .awards div p {
+        margin: 0 10px;
+    }
+
+    .writingsOfNazrul {
+        display: flex;
+        flex-direction: column;
+        margin: 0 160px 40px 160px;
+        justify-content: none;
+    }
+
+    .poetry,
+    .poemsAndSongs {
+        width: 100%;
+    }
+
+    .poetry ul,
+    .poemsAndSongs ul {
+        margin: 40px 80px;
+    }
+
+    footer {
+        display: block;
+        /* margin: 0 250px; */
+        margin: 0;
+    }
+
+    footer div:nth-child(1) {
+        width: auto;
+        padding: 15px;
+        /* background-color: red; */
+    }
+
+    footer div:nth-child(2) {
+        width: auto;
+        /* background-color: blue; */
+        border-left: none;
+        padding: 15px;
+    }
+
+    footer div:nth-child(3) {
+        width: auto;
+        /* background-color: aqua; */
+        border-left: none;
+        /* padding: 300px; */
+        /* box-sizing: border-box; */
+        padding: 15px;
+        text-align: justify;
+    }
+}
+
+@media all and (min-width: 1200px) { }
+
+@media all and (max-width: 1400px) { }
